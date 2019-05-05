@@ -3,7 +3,8 @@ pipeline {
   agent any
 
   environment {
-    TAG = "demo_${env.BRANCH_NAME}_${env.BUILD_NUMBER}"
+   // TAG = "demo_${env.BRANCH_NAME}_${env.BUILD_NUMBER}"
+   TAG = "jenkinsseletest"
   }
 
   stages {
